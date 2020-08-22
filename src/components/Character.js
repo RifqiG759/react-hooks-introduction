@@ -78,7 +78,8 @@ class Character extends Component {
     } else if (!this.state.isLoading && !this.state.loadedCharacter.id) {
       content = <p>Failed to fetch character.</p>;
     }
-    return content;
+     return content;
+
   }
 }
 

@@ -5,7 +5,7 @@ import Character from './components/Character';
 
 class App extends Component {
   state = {
-    selectedCharacter: 1,
+    selectedCharacter: 4,
     side: 'light',
     destroyed: false
   };
